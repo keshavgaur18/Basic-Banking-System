@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="loader()">
+    <div id="navbar">
+      <ul>
+        <li>
+          <div class="logo">
+            <img class="logo-img" src="./images/TSP.jpg" alt="" />
+            <a class="title" href="index.html">TSP Bank</a>
+          </div>
+        </li>
+        <li class="right"><a href="customer.html">Customers</a></li>
+        <li class="right"><a href="#footer">Contact Us</a></li>
+        <li class="right"><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+    <section>
+      <div class="container">
+        <div class="details">
+          <center>
+            <h1>TSP Bank</h1>
+            <div class="card">
+              <div class="circle">
+                <h3>
+                  <p>
+                    Get the access of your <br />
+                    account while sitting at <br />
+                    home in comfort
+                  </p>
+                </h3>
+              </div>
+              <div class="content">
+                <p>
+                  <strong>1.</strong> No more waiting in the long queues,
+                  tranfer the money very conveniently with the help of our TSP
+                  Bank system
+                </p>
+                <p>
+                  <strong>2.</strong> You do not have any constraint of time or
+                  location
+                </p>
+                <p>
+                  <strong>3.</strong> You do not have to worry about your
+                  payment record. You can easily get an accurate record of all
+                  your transactions at the end of the day.
+                </p>
+              </div>
+            </div>
+          </center>
+        </div>
+        <div class="bank-img">
+          <center>
+            <img class="img1" src="./images/Bank.jpg" alt="bank" />
+          </center>
+        </div>
+      </div>
+      <br />
+      <div class="form">
+        <img class="img2" src="./images/transfer.gif" alt="" />
+        <form action="customer.html">
+          <input
+            type="submit"
+            class="contact-form-btn"
+            value="Transfer Money"
+          />
+        </form>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <a href="https://www.facebook.com/thesparksfoundation.info/">
+        <img class="social-icon" src="./images/linkedin.png" alt="fb" />
+      </a>
+      <a href="https://www.instagram.com/thesparksfoundation.info/?hl=en">
+        <img class="social-icon" src="./images/facebook.png" alt="linkedin" />
+      </a>
+      <a href="https://www.linkedin.com/company/the-sparks-foundation/">
+        <img class="social-icon" src="./images/instagram.png" alt="instagram" />
+      </a>
+      <p>© Copyright 2022 TSP Bank</p>
+    </footer>
+
+    <script>
+      var preloader = document.getElementById("loading");
+      function loader() {
+        preloader.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
